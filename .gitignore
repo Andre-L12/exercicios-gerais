@@ -1,15 +1,21 @@
 # Prerequisites
 *.d
 
+*.sh
+main
+*saida
+*.json
+
 # Object files
 *.ko
 *.obj
 *.elf
 
+
 # Linker output
 *.ilk
 *.map
-*.exp
+*.exps
 
 # Precompiled Headers
 *.gch
