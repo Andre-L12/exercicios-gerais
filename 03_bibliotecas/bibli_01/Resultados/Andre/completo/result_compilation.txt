@@ -1,0 +1,18 @@
+main.c: In function ‘main’:
+main.c:4:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+    4 |     scanf("%f",&R);
+      |     ^~~~~
+main.c:2:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+    1 | #include "esfera_utils.h"
+  +++ |+#include <stdio.h>
+    2 | int main(){
+main.c:4:5: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
+    4 |     scanf("%f",&R);
+      |     ^~~~~
+main.c:4:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+main.c:7:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+    7 |     printf("Area: %.2f\nVolume: %.2f\n",area,volume);
+      |     ^~~~~~
+main.c:7:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+main.c:7:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+main.c:7:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
