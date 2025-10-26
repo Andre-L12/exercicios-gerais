@@ -1,4 +1,5 @@
 #include "esfera_utils.h"
+#include <stdio.h>
 int main(){
     float R,area,volume;
     scanf("%f",&R);
