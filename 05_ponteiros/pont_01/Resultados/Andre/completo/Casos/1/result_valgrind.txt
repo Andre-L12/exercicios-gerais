@@ -1,15 +1,15 @@
-==1753647== Memcheck, a memory error detector
-==1753647== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==1753647== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==1753647== Command: Resultados/Andre/completo/prog Resultados/Andre/completo/Casos/1
-==1753647== Parent PID: 1753646
-==1753647== 
-==1753647== 
-==1753647== HEAP SUMMARY:
-==1753647==     in use at exit: 0 bytes in 0 blocks
-==1753647==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
-==1753647== 
-==1753647== All heap blocks were freed -- no leaks are possible
-==1753647== 
-==1753647== For lists of detected and suppressed errors, rerun with: -s
-==1753647== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==5877== Memcheck, a memory error detector
+==5877== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==5877== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==5877== Command: Resultados/Andre/completo/prog Resultados/Andre/completo/Casos/1
+==5877== Parent PID: 5876
+==5877== 
+==5877== 
+==5877== HEAP SUMMARY:
+==5877==     in use at exit: 0 bytes in 0 blocks
+==5877==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==5877== 
+==5877== All heap blocks were freed -- no leaks are possible
+==5877== 
+==5877== For lists of detected and suppressed errors, rerun with: -s
+==5877== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
